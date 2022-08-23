@@ -21,11 +21,11 @@ npm run lint
 ```
 
 ## Project Tests 
-First: Run the project using 
+First Step: Run the project using 
 ```
 npm run serve
 ```
-In another console
+Second Step: In another console
 ```
 npm test
 ```
