@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0160" tests="3" failures="6">
+  <testsuite name="Root Suite" timestamp="2022-08-23T21:40:46" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="All_fields_error" timestamp="2022-08-23T21:40:46" tests="1" file="I:\Desenvolvimento\FRONTEND\VUE\web-form\src\test\All_fields_error\all_fields_error.js" time="0.0070" failures="2">
+    <testcase name="All_fields_error &quot;before each&quot; hook for &quot;All_fields_error&quot;" time="0.0040" classname="&quot;before each&quot; hook for &quot;All_fields_error&quot;">
+      <failure message="The ChromeDriver could not be found on the current PATH. Please download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH." type="Error"><![CDATA[Error: The ChromeDriver could not be found on the current PATH. Please download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH.
+    at new ServiceBuilder (node_modules\selenium-webdriver\chrome.js:160:13)
+    at Function.getDefaultService (node_modules\selenium-webdriver\chrome.js:248:12)
+    at Function.createSession (node_modules\selenium-webdriver\chromium.js:669:49)
+    at Function.createSession (node_modules\selenium-webdriver\chrome.js:239:13)
+    at createDriver (node_modules\selenium-webdriver\index.js:146:33)
+    at Builder.build (node_modules\selenium-webdriver\index.js:674:16)
+    at Context.<anonymous> (src\test\All_fields_error\all_fields_error.js:10:55)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+    <testcase name="All_fields_error &quot;after each&quot; hook for &quot;All_fields_error&quot;" time="0.0000" classname="&quot;after each&quot; hook for &quot;All_fields_error&quot;">
+      <failure message="Cannot read properties of undefined (reading &apos;quit&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'quit')
+    at Context.<anonymous> (src\test\All_fields_error\all_fields_error.js:14:18)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="All_fields_ok" timestamp="2022-08-23T21:40:46" tests="1" file="I:\Desenvolvimento\FRONTEND\VUE\web-form\src\test\All_fields_ok\all_fields_ok.js" time="0.0030" failures="2">
+    <testcase name="All_fields_ok &quot;before each&quot; hook for &quot;All_fields_ok&quot;" time="0.0030" classname="&quot;before each&quot; hook for &quot;All_fields_ok&quot;">
+      <failure message="The ChromeDriver could not be found on the current PATH. Please download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH." type="Error"><![CDATA[Error: The ChromeDriver could not be found on the current PATH. Please download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH.
+    at new ServiceBuilder (node_modules\selenium-webdriver\chrome.js:160:13)
+    at Function.getDefaultService (node_modules\selenium-webdriver\chrome.js:248:12)
+    at Function.createSession (node_modules\selenium-webdriver\chromium.js:669:49)
+    at Function.createSession (node_modules\selenium-webdriver\chrome.js:239:13)
+    at createDriver (node_modules\selenium-webdriver\index.js:146:33)
+    at Builder.build (node_modules\selenium-webdriver\index.js:674:16)
+    at Context.<anonymous> (src\test\All_fields_ok\all_fields_ok.js:10:55)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+    <testcase name="All_fields_ok &quot;after each&quot; hook for &quot;All_fields_ok&quot;" time="0.0000" classname="&quot;after each&quot; hook for &quot;All_fields_ok&quot;">
+      <failure message="Cannot read properties of undefined (reading &apos;quit&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'quit')
+    at Context.<anonymous> (src\test\All_fields_ok\all_fields_ok.js:14:18)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Two_field_errors" timestamp="2022-08-23T21:40:46" tests="1" file="I:\Desenvolvimento\FRONTEND\VUE\web-form\src\test\Two_field_errors\two_field_errors.js" time="0.0040" failures="2">
+    <testcase name="Two_field_errors &quot;before each&quot; hook for &quot;Two_field_errors&quot;" time="0.0030" classname="&quot;before each&quot; hook for &quot;Two_field_errors&quot;">
+      <failure message="The ChromeDriver could not be found on the current PATH. Please download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH." type="Error"><![CDATA[Error: The ChromeDriver could not be found on the current PATH. Please download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH.
+    at new ServiceBuilder (node_modules\selenium-webdriver\chrome.js:160:13)
+    at Function.getDefaultService (node_modules\selenium-webdriver\chrome.js:248:12)
+    at Function.createSession (node_modules\selenium-webdriver\chromium.js:669:49)
+    at Function.createSession (node_modules\selenium-webdriver\chrome.js:239:13)
+    at createDriver (node_modules\selenium-webdriver\index.js:146:33)
+    at Builder.build (node_modules\selenium-webdriver\index.js:674:16)
+    at Context.<anonymous> (src\test\Two_field_errors\two_field_errors.js:10:55)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+    <testcase name="Two_field_errors &quot;after each&quot; hook for &quot;Two_field_errors&quot;" time="0.0000" classname="&quot;after each&quot; hook for &quot;Two_field_errors&quot;">
+      <failure message="Cannot read properties of undefined (reading &apos;quit&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'quit')
+    at Context.<anonymous> (src\test\Two_field_errors\two_field_errors.js:14:18)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

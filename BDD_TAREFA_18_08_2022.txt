@@ -1,0 +1,26 @@
+#language: pt-br
+
+Funcionalidade: Registro Online
+	Registrar um novo usuário do site
+	Assim eles poderão se autenticar e usar as funcionalidades do site
+
+Cenario: Pagina de cadastro deve exibir uma mensagem de erro caso o email informado tenha menos que 6 caracters
+	Dado que sou um novo usuário
+	E naveguei para a página de cadastro
+	E inseri a informação de email com poucos caracters
+	Quando clicar no botão de criar conta
+	Entao pagina de cadastro deve exibir uma mensagem de erro
+	
+Cenario: Pagina de cadastro deve exibir uma mensagem de erro caso o first name informado tenha menos que 6 caracters
+	Dado que sou um novo usuário
+	E naveguei para a página de cadastro
+	E inseri a informação de first name com poucos caracters
+	Quando clicar no botão de criar conta
+	Entao pagina de cadastro deve exibir uma mensagem de erro
+	
+Cenario: Em um cadastro realizado com sucesso o usuário deverá ser cadastrado
+	Dado que sou um novo usuário
+	E naveguei para a página de cadastro
+	E inseri todas as informações do formulário corretas
+	Quando clicar no botão de criar conta
+	Entao o usuário deve ser cadastrado
